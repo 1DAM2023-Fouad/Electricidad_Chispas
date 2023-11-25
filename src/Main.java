@@ -19,7 +19,7 @@ public class Main {
         sociedades.setEmail("sociedad@gamil.com");
         sociedades.setTelefono("641883159");
 
-        // Clinente: Autónomo
+        // Clinente: Autónomocd
         Autonomo autonomo = new Autonomo();
 
         autonomo.setSeguro("#2481");
