@@ -5,7 +5,7 @@ public class Productos extends Articulo{
     private String modelo;
     private ArrayList<Facturas> facturas;
 
-    public String getMarca() {
+    public String getMarca()  {
         return marca;
     }
 

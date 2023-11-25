@@ -58,7 +58,6 @@ public class Main {
         imprimir(productos);
         imprimir(servicios);
 
-
         sc.close();
     }
 

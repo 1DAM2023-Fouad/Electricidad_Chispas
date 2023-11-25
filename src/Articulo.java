@@ -3,7 +3,6 @@ public class Articulo {
     private String nombre;
     private String precio;
     private String tipoIva;
-
     public String getCodigo() {
         return codigo;
     }

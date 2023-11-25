@@ -4,7 +4,7 @@ public class Servicios extends Articulo{
     private String duracion;
     private ArrayList<Facturas> facturas;
 
-    public String getDuracion() {
+    public String getDuracion()  {
         return duracion;
     }
 

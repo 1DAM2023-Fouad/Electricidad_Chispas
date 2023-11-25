@@ -1,6 +1,6 @@
 public class Sociedades extends Cliente{
     private String irpf;
-    private Facturas facturas; // Dependencia
+    private Facturas facturas; // Dependencia.
 
     public String getIrpf() {
         return irpf;

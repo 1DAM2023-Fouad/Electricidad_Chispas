@@ -1,7 +1,7 @@
 public class Autonomo extends Cliente{
     private String seguro;
     private String apellidos;
-    private Facturas factura; // Dependencia
+    private Facturas factura; // Dependencia.
 
     public String getSeguro() {
         return seguro;
