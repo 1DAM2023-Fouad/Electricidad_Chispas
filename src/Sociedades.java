@@ -1,6 +1,6 @@
 public class Sociedades extends Cliente{
     private String irpf;
-    private Facturas factura;
+    private Facturas facturas; // Dependencia
 
     public String getIrpf() {
         return irpf;
@@ -10,11 +10,11 @@ public class Sociedades extends Cliente{
         this.irpf = irpf;
     }
 
-    public Facturas getFactura() {
-        return factura;
+    public Facturas getFacturas() {
+        return facturas;
     }
 
     public void setFactura(Facturas factura) {
-        this.factura = factura;
+        this.facturas = factura;
     }
 }
