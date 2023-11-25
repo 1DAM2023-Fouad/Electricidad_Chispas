@@ -52,6 +52,13 @@ public class Main {
         servicios.setPrecio("24,96 €");
         servicios.setTipoIva("10%");
 
+        // Factura
+        Facturas facturas=new Facturas();
+        facturas.setFechaFactura("25/11/2023");
+        facturas.setCodigoFactura(".4896");
+        facturas.setBaseImponible("548");
+        facturas.setTotal("548 + 21%");
+
 
         imprimir(autonomo);
         imprimir(sociedades);
